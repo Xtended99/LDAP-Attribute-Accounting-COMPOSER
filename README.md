@@ -24,7 +24,7 @@ Number of departments per City or State,
 Measure different types of users that exist and subdivide per Group or Region and what ever else you can think of.
 The output can be used to correct missing data or data that has been entered incorrectly.
 The number of objects per type and the total as a whole. 
-I use it heavenly in implementation that make heavy use LDAP repositories, for example NAC, Authentication and Web SSO systems.
+I use it alot in implementation that make heavy use of LDAP repositories, for example NAC, Authentication and Web SSO systems.
 
 Staple tools for example SED, AWK, UNIQ, SORT, CUT, PASTE, CSPLIT can be used to manipulate the date. The point is that it is consistent from the first to the last record.
 
