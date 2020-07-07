@@ -65,7 +65,7 @@ The result of the above after the datahas been processed by LAAC
 
 "dn: ","uid: ","sn: ","cn: ","cn:: ","mail: ","l: "
 
- Sample Record Conversion = Please becareful of line wrap in the actual output there is never line wrap
+ Sample Record Conversion = Please becareful of line wrap in the actual output there is never line wrap\n
 "CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","QW5nZWwgU29zYQo","MyMail@mail.com","ny","ny"
 
  If you summons a field that is not present in a record the field would be empty "Sosa","","MyMail@mail.com"
