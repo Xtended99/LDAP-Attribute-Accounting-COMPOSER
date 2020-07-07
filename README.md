@@ -21,7 +21,7 @@ Profile the effectiveness of a global a change across thousands of objects.
 Bench mark the accuracy against ERP systems pushes into LDAP.
 In packages like R you then have another world available to you. For example the number of individuals per department,
 Number of departments per City or State,
-Measure different types of users that exist and subdivide per Group or Region and what everelseyou can think of.
+Measure different types of users that exist and subdivide per Group or Region and what ever else you can think of.
 The output can be used to correct missing data or data that has been entered incorrectly.
 The number of objects per type and the total as a whole. 
 I use it heavenly in implementation that make heavy use LDAP repositories, for example NAC, Authentication and Web SSO systems.
@@ -61,12 +61,15 @@ result: 0 Success
 
 
 The result of the above after the datahas been processed by LAAC
- The header CSV rcord that names each collected fielf
+
+The header CSV rcord that names each collected field
 
 "dn: ","uid: ","sn: ","cn: ","cn:: ","mail: ","l: "
 
  Sample Record Conversion = Please becareful of line wrap in the actual output there is never line wrap
+ 
 "CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","QW5nZWwgU29zYQo","MyMail@mail.com","ny","ny"
 
  If you summons a field that is not present in a record the field would be empty "Sosa","","MyMail@mail.com"
+
 "CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","","MyMail@mail.com","ny","ny"
