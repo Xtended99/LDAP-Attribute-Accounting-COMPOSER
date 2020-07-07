@@ -17,9 +17,9 @@ Create Contingency or Cross tabulation assessments.
 I use it at least twice a week to find changes with in LDAP directory and the number of changes.
 Profile the number of occurrences per attribute.
 Profile how and where attributes are used.
-Profile the effectiveness of a global a change across thousands of objects, 
-Bench mark the accuracy against ERP systems pushes into LDAP,
-In packages like R you then another world available to you for example number of individuals per department.
+Profile the effectiveness of a global a change across thousands of objects. 
+Bench mark the accuracy against ERP systems pushes into LDAP.
+In packages like R you then have another world available to you. For example the number of individuals per department,
 Number of departments per City or State,
 Measure different types of users that exist and subdivide per Group or Region and what everelseyou can think of.
 The output can be used to correct missing data or data that has been entered incorrectly.
