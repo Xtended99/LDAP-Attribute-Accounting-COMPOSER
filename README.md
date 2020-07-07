@@ -30,14 +30,14 @@ Staple tools for example SED, AWK, UNIQ, SORT, CUT, PASTE, CSPLIT can be used to
 
 Sample Mocked up ldapsearch Data ouput
 
-# LDAPv3
-# base <DC=TheCompany,DC=Corp,DC=YourCompnay,DC=com> with scope subtree
-# filter: (objectclass=*)
-# requesting: givenname uid sn cn cn:: l st mail
-# with pagedResults control: size=1
-# Sosa Angel,staffer,users,Technical,DC=TheCompany,YourCompnay,com
+ LDAPv3
+ base <DC=TheCompany,DC=Corp,DC=YourCompnay,DC=com> with scope subtree
+ filter: (objectclass=*)
+ requesting: givenname uid sn cn cn:: l st mail
+ with pagedResults control: size=1
+ Sosa Angel,staffer,users,Technical,DC=TheCompany,YourCompnay,com
 
-# version: 1
+ version: 1
 
  dn: uid=staffer,ou=users,ou=Technical,DC=TheCompany,DC=YourCompnay,DC=com
  objectClass: top
@@ -53,20 +53,20 @@ Sample Mocked up ldapsearch Data ouput
  l: ny
  st: ny
  
-# search result
+ search result
 search: 9999999
 result: 0 Success
-# pagedresults: cookie=12345678
-# extended LDIF
-#
+ pagedresults: cookie=12345678
+ extended LDIF
+
 
 The result of the above after the datahas been processed by LAAC
-# The header CSV rcord that names each collected fielf
+ The header CSV rcord that names each collected fielf
 
 "dn: ","uid: ","sn: ","cn: ","cn:: ","mail: ","l: "
 
-# Sample Record Conversion = Please becareful of line wrap in the actual output there is never line wrap
+ Sample Record Conversion = Please becareful of line wrap in the actual output there is never line wrap
 "CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","QW5nZWwgU29zYQo","MyMail@mail.com","ny","ny"
 
-# If you summons a field that is not present in a record the field would be empty "Sosa","","MyMail@mail.com"
+ If you summons a field that is not present in a record the field would be empty "Sosa","","MyMail@mail.com"
 "CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","","MyMail@mail.com","ny","ny"
