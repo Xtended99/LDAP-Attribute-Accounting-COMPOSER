@@ -21,7 +21,7 @@ Profile the effectiveness of a global a change across thousands of objects.
 Bench mark the accuracy against ERP systems pushes into LDAP.
 In packages like R you then have another world available to you. For example the number of individuals per department,
 Number of departments per City or State,
-Measure different types of users that exist and subdivide per Group or Region and what everelseyou can think of.
+Measure different types of users that exist and subdivide per Group or Region and what ever else you can think of.
 The output can be used to correct missing data or data that has been entered incorrectly.
 The number of objects per type and the total as a whole. 
 I use it heavenly in implementation that make heavy use LDAP repositories, for example NAC, Authentication and Web SSO systems.
