@@ -61,7 +61,8 @@ result: 0 Success
 
 
 The result of the above after the datahas been processed by LAAC
- The header CSV rcord that names each collected fielf
+
+The header CSV rcord that names each collected field
 
 "dn: ","uid: ","sn: ","cn: ","cn:: ","mail: ","l: "
 
