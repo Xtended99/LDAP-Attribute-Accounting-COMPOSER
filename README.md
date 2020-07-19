@@ -26,7 +26,7 @@ The output can be used to correct missing data or data that has been entered inc
 The number of objects per type and the total as a whole. 
 I use it alot in implementation that make heavy use of LDAP repositories, for example NAC, Authentication and Web SSO systems.
 
-Staple tools for example SED, AWK, UNIQ, SORT, CUT, PASTE, CSPLIT can be used to manipulate the date. The point is that it is consistent from the first to the last record.
+Staple tools for example SED, AWK, UNIQ, SORT, CUT, PASTE, CSPLIT can be used to manipulate the data. The point is that it is consistent from the first to the last record.
 
 Sample Mocked up ldapsearch Data ouput
 
