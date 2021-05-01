@@ -75,7 +75,7 @@ The header CSV rcord that names each collected field
 "CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","","MyMail@mail.com","ny","ny"  
   
 Visual output is below:  
-root@xtended-Inspiron-13-7359:~/Download/Projects/C++/Strings/35# clear;./strings_${rev}_combined  -a ../answer_file_lf_v1.ajs  
+~/Download/Projects/C++/Strings/35# clear;./strings_${rev}_combined  -a ../answer_file_lf_v1.ajs  
 Sat May  1 18:33:18 2021  
  
    Answer File = 1, -a, ../answer_file_lf_v1.ajs, 1, 1, Desired Value = 25  
