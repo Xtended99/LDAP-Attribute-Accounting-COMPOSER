@@ -1,6 +1,6 @@
 # LDAP-Attribute-Accounting-COMPOSER:  
 
-LAAC will convert ldapsearch output to CSV records.  
+LAAC will convert ldapsearch output to CSV records.  This tool is written completely in C++ using C++ 20 standards.
 Displays attributes used in LDAP of your choosing or from the common per-programmed set of attributes.  
 LAAC will count the number of occurrences per attribute.  
 The length of the name of each attribute.  
