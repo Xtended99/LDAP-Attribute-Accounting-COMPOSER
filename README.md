@@ -68,60 +68,61 @@ The header CSV rcord that names each collected field
 
  Sample Record Conversion = Please becareful of line wrap in the actual output there is never line wrap  
  
-"CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","QW5nZWwgU29zYQo","MyMail@mail.com","ny","ny"
-
- If you summons a field that is not present in a record the field would be empty "Sosa","","MyMail@mail.com"
-
-"CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","","MyMail@mail.com","ny","ny"
-
-Visual output is below:
-root@xtended-Inspiron-13-7359:~/Download/Projects/C++/Strings/35# clear;./strings_${rev}_combined  -a ../answer_file_lf_v1.ajs
-Sat May  1 18:33:18 2021
-
-   Answer File = 1, -a, ../answer_file_lf_v1.ajs, 1, 1, Desired Value = 25
-   Answer File Containg Parameters And Values = 1, 25, -a, ../answer_file_lf_v1.ajs
-
-   Parameters And Values Supplied = -g guided -f ../ad_11_modified.log -o ./del_35_combined_v1_a.csv -v null -b 50000000 -a ../answer_file_lf_v1.ajs -n no_prompt -p ../attribute_many_v1.ajs
-
-   Option Format = 3,  Outer Counter = 17, Inner Counter = 17
-
-   V1 =   0, = 3 ./strings_35_combined
-   V1 =   1, = 3 -g
-   V1 =   2, = 3 guided
-   V1 =   3, = 3 -f
-   V1 =   4, = 3 ../ad_11_modified.log
-   V1 =   5, = 3 -o
-   V1 =   6, = 3 ./del_35_combined_v1_a.csv
-   V1 =   7, = 3 -v
-   V1 =   8, = 3 null
-   V1 =   9, = 3 -b
-   V1 =  10, = 3 50000000
-   V1 =  11, = 3 -a
-   V1 =  12, = 3 ../answer_file_lf_v1.ajs
-   V1 =  13, = 3 -n
-   V1 =  14, = 3 no_prompt
-   V1 =  15, = 3 -p
-   V1 =  16, = 3 ../attribute_many_v1.ajs
-
-   Rendered Analysis On ../ad_11_modified.log, File Analysis = DN: Count = 85,681, File Size = 660,237,352, DN: Furthest Apart = 3,250,012, Original Buffer Size = 50,000,000
-   Source File = ../ad_11_modified.log, Pos = 660,237,352, Divisor = 13, Buffer Size = 50,000,000, Quotient = 50,787,488, Remainder = 8
-
-   Using Named Attribute File
-   Number Of Attributes To Process = 13
-
-
-  Attribute Name = businessCategory:    , Attribute Length = 18   , Total Number Of Occurrence =    13,032
-  Attribute Name = c:                   , Attribute Length = 3    , Total Number Of Occurrence =    12,018
-  Attribute Name = co:                  , Attribute Length = 4    , Total Number Of Occurrence =    10,448
-  Attribute Name = department:          , Attribute Length = 12   , Total Number Of Occurrence =    13,595
-  Attribute Name = directReports:       , Attribute Length = 15   , Total Number Of Occurrence =     7,807
-  Attribute Name = dn:                  , Attribute Length = 4    , Total Number Of Occurrence =    85,682
-  Attribute Name = employeeNumber:      , Attribute Length = 16   , Total Number Of Occurrence =    13,205
-  Attribute Name = employeeType:        , Attribute Length = 14   , Total Number Of Occurrence =    13,125
-  Attribute Name = l:                   , Attribute Length = 3    , Total Number Of Occurrence =    13,959
-  Attribute Name = manager:             , Attribute Length = 9    , Total Number Of Occurrence =     7,785
-  Attribute Name = memberOf:            , Attribute Length = 10   , Total Number Of Occurrence =   413,096
-  Attribute Name = name:                , Attribute Length = 6    , Total Number Of Occurrence =    66,264
-  Attribute Name = objectCategory:      , Attribute Length = 16   , Total Number Of Occurrence =    66,162
-
- Total Runtime In Seconds = 99, End Time = Sat May  1 18:34:57 2021, Total Number Of Attributes = 13
+"CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","QW5nZWwgU29zYQo","MyMail@mail.com","ny","ny"  
+ 
+ If you summons a field that is not present in a record the field would be empty "Sosa","","MyMail@mail.com"  
+  
+"CN=SOSA, Angel,OU=uid,OU=users,ou=Technical,DC=TheCompnay,DC=YourCompany,DC=com","Angel Sosa","staffer","Sosa","","MyMail@mail.com","ny","ny"  
+  
+Visual output is below:  
+root@xtended-Inspiron-13-7359:~/Download/Projects/C++/Strings/35# clear;./strings_${rev}_combined  -a ../answer_file_lf_v1.ajs  
+Sat May  1 18:33:18 2021  
+ 
+   Answer File = 1, -a, ../answer_file_lf_v1.ajs, 1, 1, Desired Value = 25  
+   Answer File Containg Parameters And Values = 1, 25, -a, ../answer_file_lf_v1.ajs  
+  
+   Parameters And Values Supplied = -g guided -f ../ad_11_modified.log -o ./del_35_combined_v1_a.csv -v null -b 50000000 -a ../answer_file_lf_v1.ajs -n no_prompt -p ../attribute_many_v1.ajs  
+  
+   Option Format = 3,  Outer Counter = 17, Inner Counter = 17  
+  
+   V1 =   0, = 3 ./strings_35_combined  
+   V1 =   1, = 3 -g  
+   V1 =   2, = 3 guided  
+   V1 =   3, = 3 -f  
+   V1 =   4, = 3 ../ad_11_modified.log  
+   V1 =   5, = 3 -o  
+   V1 =   6, = 3 ./del_35_combined_v1_a.csv  
+   V1 =   7, = 3 -v  
+   V1 =   8, = 3 null  
+   V1 =   9, = 3 -b  
+   V1 =  10, = 3 50000000  
+   V1 =  11, = 3 -a  
+   V1 =  12, = 3 ../answer_file_lf_v1.ajs  
+   V1 =  13, = 3 -n  
+   V1 =  14, = 3 no_prompt  
+   V1 =  15, = 3 -p  
+   V1 =  16, = 3 ../attribute_many_v1.ajs  
+  
+   Rendered Analysis On ../ad_11_modified.log, File Analysis = DN: Count = 85,681, File Size = 660,237,352, DN: Furthest Apart = 3,250,012, Original Buffer Size = 50,000,000  
+   Source File = ../ad_11_modified.log, Pos = 660,237,352, Divisor = 13, Buffer Size = 50,000,000, Quotient = 50,787,488, Remainder = 8  
+  
+   Using Named Attribute File  
+   Number Of Attributes To Process = 13  
+  
+  
+  Attribute Name = businessCategory:    , Attribute Length = 18   , Total Number Of Occurrence =    13,032  
+  Attribute Name = c:                   , Attribute Length = 3    , Total Number Of Occurrence =    12,018  
+  Attribute Name = co:                  , Attribute Length = 4    , Total Number Of Occurrence =    10,448  
+  Attribute Name = department:          , Attribute Length = 12   , Total Number Of Occurrence =    13,595  
+  Attribute Name = directReports:       , Attribute Length = 15   , Total Number Of Occurrence =     7,807  
+  Attribute Name = dn:                  , Attribute Length = 4    , Total Number Of Occurrence =    85,682  
+  Attribute Name = employeeNumber:      , Attribute Length = 16   , Total Number Of Occurrence =    13,205  
+  Attribute Name = employeeType:        , Attribute Length = 14   , Total Number Of Occurrence =    13,125  
+  Attribute Name = l:                   , Attribute Length = 3    , Total Number Of Occurrence =    13,959  
+  Attribute Name = manager:             , Attribute Length = 9    , Total Number Of Occurrence =     7,785  
+  Attribute Name = memberOf:            , Attribute Length = 10   , Total Number Of Occurrence =   413,096  
+  Attribute Name = name:                , Attribute Length = 6    , Total Number Of Occurrence =    66,264  
+  Attribute Name = objectCategory:      , Attribute Length = 16   , Total Number Of Occurrence =    66,162  
+  
+ Total Runtime In Seconds = 99, End Time = Sat May  1 18:34:57 2021, Total Number Of Attributes = 13  
+  
